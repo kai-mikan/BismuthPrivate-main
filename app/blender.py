@@ -2,7 +2,7 @@ import bpy
 import bmesh
 from PIL import Image, ImageFile
 import os, sys
-import math
+import math 
 from contextlib import contextmanager
 
 
