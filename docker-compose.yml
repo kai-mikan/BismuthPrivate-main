@@ -1,0 +1,10 @@
+services:
+  bismuth:  
+    build:
+      dockerfile: Dockerfile
+      context: .
+    stdin_open: true
+    tty: true
+    hostname: bismuth
+    volumes:
+      - ./app:/app

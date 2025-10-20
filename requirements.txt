@@ -1,0 +1,6 @@
+bpy==4.5.1
+pillow
+numpy
+tqdm
+scipy
+opencv-python
